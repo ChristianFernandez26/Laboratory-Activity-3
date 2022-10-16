@@ -1,0 +1,135 @@
+.essay-title {
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 500px;
+}
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.title-background {
+    width:100%;
+    height: 200vh;
+    color: #fff;
+    background: linear-gradient(-45deg,#EE7752,#E73C7E,#23A6D5,#23D5AB);
+    background-size: 500% 500%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+
+@keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.title-two {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+.description-one {
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.title-three {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+.description-two {
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+.title-four {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+.description-three {
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+span {
+    color: green;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.title-five {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+.description-four {
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+.title-six {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+.description-five {
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 25px;
+}
